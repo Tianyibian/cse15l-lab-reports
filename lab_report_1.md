@@ -16,7 +16,7 @@
 
 3. Trying some commands.  <br />
  - The result of some of the commands are listed here
- - ![Image](Screenshot 2023-04-06 170857.png)
+ ![Image](Screenshot 2023-04-06 170857.png)
  - Ls-l list files with permissions
  - Ls-a shows hidden files
  - Ls-t shows files arranged by time
