@@ -15,7 +15,7 @@
  - You are expecting to see the cluster status. The status is different by different person because it tells us the status of the cluster when I connected to it. And the status varies as the number of students connected to the cluster changes over time.<br />
 
 3. Trying some commands.  <br />
- - The result of some of the commands are listed here
+ - The result of some of the commands are listed here <br />
  ![Image](Screenshot 2023-04-06 170857.png)
  - Ls-l list files with permissions
  - Ls-a shows hidden files
