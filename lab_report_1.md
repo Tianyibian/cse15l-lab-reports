@@ -5,7 +5,7 @@
  - According to the operating system you used, click on the accroding button for download.<br />
  
 # 2. Connecting to SSH. <br />
- - First find your account number by going to [Link](https://sdacs.ucsd.edu/~icc/index.php) <br />
+ - First find your account number by going to [Link](https://sdacs.ucsd.edu/~icc/index.php). <br />
  - If using Windows, first download git so you can use ssh. [Link](https://gitforwindows.org/).
  - Using bash on windows using vs code [Link](https://stackoverflow.com/questions/42606837/how-do-i-use-bash-on-windows-from-the-visual-studio-code-integrated-terminal/50527994#50527994). <br />
  - Open the VS code terminal. <br />
@@ -16,7 +16,7 @@
  - You are expecting to see the cluster status. The status is different by different person because it tells us the status of the cluster when I connected to it. And the status varies as the number of students connected to the cluster changes over time.<br />
 
 # 3. Trying some commands.  <br />
- - The result of some of the commands are listed here <br />
+ - The result of some of the commands are listed here. <br />
 ![Image](Screenshot 2023-04-06 170857.png)
  - Ls-l list files with permissions
  - Ls-a shows hidden files
