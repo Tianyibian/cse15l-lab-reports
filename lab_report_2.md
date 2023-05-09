@@ -6,6 +6,14 @@
  - The screen shots of my code running in the web server. <br />
  ![Image](Screenshot 2023-04-23 222933.png)
  ![Image](Screenshot 2023-04-23 223214.png)
+ - The line I put into the browser to let display some strings.
+ ```
+ http://localhost:4000/add-message?s=Hello
+ http://localhost:4000/add-message?s=Hello
+ http://localhost:4000/add-message?s=my%20name%20is%20Tianyi
+ http://localhost:4000/add-message?s=my%20name%20is%20Tianyi
+ http://localhost:4000/add-message?s=want%20to%20sleep
+ ```
  - The value line changes , adding one line of my name is Tianyi, and one line of want to sleep. <br />
  - (I made a mistake typing my name for two times, hence the second screenshot has two line updated.) <br />
  - The value url changes with regard to each different input.<br />
