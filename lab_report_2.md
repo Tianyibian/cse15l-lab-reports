@@ -2,7 +2,7 @@
  - The code to accomplish this task. <br /> 
 ![Image](Screenshot 2023-04-23 222744.png)
 ![Image](Screenshot 2023-04-23 222846.png)
- - For my code, the handle request method has been called, which detect the string after the equal sign, and retrn a new line of containing that string.<br />
+ - For my code, the handle request method has been called, which detect the string after the equal sign, and retrn a new line containing all the preivous strings plus that new line of string.<br />
  - The screen shots of my code running in the web server. <br />
  ![Image](Screenshot 2023-04-23 222933.png)
  ![Image](Screenshot 2023-04-23 223214.png)
@@ -14,12 +14,11 @@
  http://localhost:4000/add-message?s=my%20name%20is%20Tianyi
  http://localhost:4000/add-message?s=want%20to%20sleep
  ```
- - The value line changes , adding one line of my name is Tianyi, and one line of want to sleep. <br />
- - (I made a mistake typing my name for two times, hence the second screenshot has two line updated.) <br />
+ - The value of  line changes , adding two lines of Hello, followed by two lines of my name is Tianyi, and one line of want to sleep. <br />
  - The value url changes with regard to each different input.<br />
  - The value parameter also changes each time.<br />
 # 2. Explore buggy behavior including finding failure inducing input, writing test ,recording symptom and bug fixes. <br />
- - The code blocks of the junit test inducing failture. <br /> 
+ - The code blocks of the junit test inducing failure. <br /> 
 ``` java
 public void testReversed() {
     int[] input1 = {2,3,4};
@@ -28,14 +27,16 @@ public void testReversed() {
 ```
  - The code blocks of the junit test doesn't induce  failture. <br />
 ``` java
-public void testReverseInPlace() {
-    int[] input1 = { 3,4 };
-    ArrayExamples.reverseInPlace(input1);
-    assertArrayEquals(new int[]{ 4,3 }, input1);
-	}
+public void testReversed() {
+    int[] input1 = {};
+    assertArrayEquals(new int[]{}, ArrayExamples.reversed(input1));
+  }
 ```
 - The symptom of running the  junit test. <br /> 
-![Image](Screenshot 2023-04-20 142229.png)
+- The non error inducing test.  <br /> 
+
+- The error inducing junit test.  <br /> 
+
 - The bug and bug fixes . <br />
 ``` java
 static int[] reversed(int[] arr) {
