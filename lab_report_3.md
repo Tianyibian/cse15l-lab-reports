@@ -41,7 +41,7 @@ grep -h gel rr73.txt
 grep -h collagen rr73.txt
 ```
 - the result are just printing file names.<br /> 
-![Image](Screenshot 2023-04-23 223214.png)
+![Image](Screenshot 2023-05-09 160314.png)
 - What if the file doesn't have the word?
 ```
 grep -h feadsfasdf rr73.txt
