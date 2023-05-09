@@ -33,6 +33,7 @@ grep -h collagen rr73.txt
 -  Lets use grep -i to find lines mathes to the word gel, or collagen that is case insensitive.
 -  The results are expected, showing Gel and gel.<br /> 
 ![Image](Screenshot 2023-05-09 154925.png)
+-  The result are also expected,showing Collagen and collagen. <br /> 
 ![Image](Screenshot 2023-05-09 154951.png)
 
 -  Lets use grep -l to find filenames only
@@ -48,4 +49,7 @@ grep -h feadsfasdf rr73.txt
 ```
 It won't return anything. <br /> 
 ![Image](Screenshot 2023-05-09 155411.png)
+# sources and references:
+- Chatgpt
+- [Link](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
 
