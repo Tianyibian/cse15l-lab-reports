@@ -34,9 +34,9 @@ public void testReversed() {
 ```
 - The symptom of running the  junit test. <br /> 
 - The non error inducing test.  <br /> 
-
+![Image](Screenshot 2023-05-08 202857.png)
 - The error inducing junit test.  <br /> 
-
+![Image](Screenshot 2023-05-08 202916.png)
 - The bug and bug fixes . <br />
 ``` java
 static int[] reversed(int[] arr) {
